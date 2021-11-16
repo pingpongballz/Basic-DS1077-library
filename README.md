@@ -1,4 +1,4 @@
-# Basic-DS1077-library
+# Basic DS1077 library for arduino
 A very basic DS1077 library for arduino. More features to be added in time to come.
 
 
