@@ -6,9 +6,22 @@ A very basic DS1077 library for arduino. More features to be added in time to co
 Copy the contents of the **DS1077** folder and place it in your arduino libraries folder. 
 Usually you can find the folder in **C:\Users\USERNAME\Documents\Arduino\libraries**.
 
+**Hooking up:**
+
+You can connect the DS1077 in a barebone configuration, as such:
+![image](https://user-images.githubusercontent.com/74599812/142455865-af7c5d78-7176-41c6-a208-eb04f610d46c.png)
+Credit goes to EasyEDA for their online EDA software: https://easyeda.com/
+
+If desired, a buffer can be placed as such too, using an opamp:
+![image](https://user-images.githubusercontent.com/74599812/142459135-0a200b42-09af-4623-80d2-44bae9a1f3ff.png)
+V- can be shorted to ground as Vout(Low) = 0.4V and Vout(High) = 2.4V, from the DS1077 datasheet.
+
+Or a dedicated buffer, such as the BUF602:
+![image](https://user-images.githubusercontent.com/74599812/142460170-b5dce3a5-3bba-495a-81bd-4ac7c1698a97.png)
 
 
-**How to use:**
+
+**Programming:**
 
 First initialise the DS1077 module: ```DS1077(Base frequency, pin connected to CTRL_0, pin connected to CTRL1)```
 
