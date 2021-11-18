@@ -1,8 +1,14 @@
 # Basic DS1077 library for arduino
 A very basic DS1077 library for arduino. More features to be added in time to come.
 
+**Installation**
 
-How to use:
+Download **DS1077.h** and **DS1077.cpp** and put them in a new folder called 'DS1077' in your arduino libraries folder. 
+Usually you can find the folder in **C:\Users\<USERNAME>\Documents\Arduino\libraries**.
+
+
+
+**How to use:**
 
 First initialise the DS1077 module: ```DS1077(Base frequency, pin connected to CTRL_0, pin connected to CTRL1)```
 
