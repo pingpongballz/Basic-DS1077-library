@@ -8,7 +8,7 @@ Usually you can find the folder in **C:\Users\USERNAME\Documents\Arduino\librari
 
 # Hooking up:
 
-You can connect the DS1077 in a barebone configuration, as such:
+You can connect the DS1077 in a barebones configuration, as such:
 ![image](https://user-images.githubusercontent.com/74599812/142455865-af7c5d78-7176-41c6-a208-eb04f610d46c.png)
 Credit goes to EasyEDA for their online EDA software: https://easyeda.com/
 
