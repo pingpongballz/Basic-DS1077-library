@@ -3,7 +3,7 @@ A very basic DS1077 library for arduino. More features to be added in time to co
 
 **Installation**
 
-Download **DS1077.h** and **DS1077.cpp** and put them in a new folder called 'DS1077' in your arduino libraries folder. 
+Copy the contents of the **DS1077** folder and place it in your arduino libraries folder. 
 Usually you can find the folder in **C:\Users\USERNAME\Documents\Arduino\libraries**.
 
 
