@@ -105,7 +105,6 @@ unsigned long DS1077::set_closest_freq(uint32_t freq)
 		P1_shift++;
 	}
 	P1 = P1 << P1_shift;
-	Serial.println(P1);
 	set_freq(ratio, P1);
 	closest_freq = _base_freq / (ratio * P1);
 	
